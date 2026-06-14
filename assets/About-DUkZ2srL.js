@@ -1,4 +1,4 @@
-import{d as e,f as t,i as n,m as r,s as i}from"./index-Bgr6SEwf.js";import{n as a,t as o}from"./SectionHeading-ihrAOVKI.js";var s=r(),c=({children:e,className:n=``,blur:r=`xl`,opacity:i=10,border:a=!0,hover:o=!0,glow:c=!1,...l})=>(0,s.jsxs)(t.div,{className:`
+import{d as e,f as t,i as n,m as r,s as i}from"./index-CrZmU1Tg.js";import{n as a,t as o}from"./SectionHeading-DWhK7TDO.js";var s=r(),c=({children:e,className:n=``,blur:r=`xl`,opacity:i=10,border:a=!0,hover:o=!0,glow:c=!1,...l})=>(0,s.jsxs)(t.div,{className:`
         relative rounded-2xl
         bg-white/[.${String(i).padStart(2,`0`)}]
         ${{sm:`backdrop-blur-sm`,md:`backdrop-blur-md`,lg:`backdrop-blur-lg`,xl:`backdrop-blur-xl`,"2xl":`backdrop-blur-2xl`}[r]||`backdrop-blur-xl`}
