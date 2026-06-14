@@ -103,8 +103,8 @@ const Hero = () => {
             <Lanyard
               position={[0, 0, 12]}
               gravity={[0, -40, 0]}
-              frontImage="/profile-nabila.jpg"
-              lanyardImage="/lanyard-pink.png"
+              frontImage={`${import.meta.env.BASE_URL}profile-nabila.jpg`}
+              lanyardImage={`${import.meta.env.BASE_URL}lanyard-pink.png`}
               lanyardWidth={1.2}
               generateBadge={true}
             />

@@ -14,7 +14,7 @@ export const personalInfo = {
   bio: "A passionate software developer with expertise in building elegant, scalable web and mobile applications. I blend creativity with clean code to craft digital experiences that make a difference.",
   shortBio: "Crafting beautiful digital experiences with clean code and creative design.",
   resumeUrl: "#",
-  profileImage: "/profile.jpg",
+  profileImage: import.meta.env.BASE_URL + "profile.jpg",
   social: {
     github: "https://github.com/nabila",
     linkedin: "https://linkedin.com/in/nabila",
@@ -99,7 +99,7 @@ export const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce platform with product management, shopping cart, payment integration, and admin dashboard. Built with Laravel and React.",
-    image: "/projects/ecommerce.jpg",
+    image: import.meta.env.BASE_URL + "projects/ecommerce.jpg",
     tags: ["Laravel", "React", "MySQL", "Tailwind CSS"],
     category: "fullstack",
     github: "https://github.com/nabila/ecommerce",
@@ -111,7 +111,7 @@ export const projects = [
     title: "Health Tracker App",
     description:
       "A mobile health tracking application with activity monitoring, meal planning, and fitness goals. Features beautiful charts and data visualization.",
-    image: "/projects/healthapp.jpg",
+    image: import.meta.env.BASE_URL + "projects/healthapp.jpg",
     tags: ["Flutter", "Dart", "Firebase", "REST API"],
     category: "mobile",
     github: "https://github.com/nabila/health-tracker",
@@ -123,7 +123,7 @@ export const projects = [
     title: "Task Management System",
     description:
       "A collaborative task management tool with real-time updates, team workspaces, kanban boards, and productivity analytics.",
-    image: "/projects/taskmanager.jpg",
+    image: import.meta.env.BASE_URL + "projects/taskmanager.jpg",
     tags: ["React", "Node.js", "MongoDB", "Socket.io"],
     category: "fullstack",
     github: "https://github.com/nabila/task-manager",
@@ -135,7 +135,7 @@ export const projects = [
     title: "Restaurant POS System",
     description:
       "A point-of-sale system for restaurants with order management, table reservations, kitchen display, and sales reporting.",
-    image: "/projects/pos.jpg",
+    image: import.meta.env.BASE_URL + "projects/pos.jpg",
     tags: ["Laravel", "Vue.js", "MySQL", "Tailwind CSS"],
     category: "fullstack",
     github: "https://github.com/nabila/restaurant-pos",
@@ -147,7 +147,7 @@ export const projects = [
     title: "Portfolio Website",
     description:
       "A stunning 3D portfolio website with interactive animations, physics-based elements, and glassmorphism design.",
-    image: "/projects/portfolio.jpg",
+    image: import.meta.env.BASE_URL + "projects/portfolio.jpg",
     tags: ["React", "Three.js", "Framer Motion", "GSAP"],
     category: "frontend",
     github: "https://github.com/nabila/portfolio",
@@ -159,7 +159,7 @@ export const projects = [
     title: "Social Media Dashboard",
     description:
       "An analytics dashboard for social media management with data visualization, scheduling, and audience insights.",
-    image: "/projects/dashboard.jpg",
+    image: import.meta.env.BASE_URL + "projects/dashboard.jpg",
     tags: ["React", "PHP", "PostgreSQL", "Chart.js"],
     category: "fullstack",
     github: "https://github.com/nabila/social-dashboard",
@@ -219,7 +219,7 @@ export const certificates = [
     title: "AWS Cloud Practitioner",
     issuer: "Amazon Web Services",
     date: "2024",
-    image: "/certs/aws.jpg",
+    image: import.meta.env.BASE_URL + "certs/aws.jpg",
     credential: "https://aws.amazon.com/verification",
   },
   {
@@ -227,7 +227,7 @@ export const certificates = [
     title: "React Developer Certification",
     issuer: "Meta",
     date: "2024",
-    image: "/certs/react.jpg",
+    image: import.meta.env.BASE_URL + "certs/react.jpg",
     credential: "#",
   },
   {
@@ -235,7 +235,7 @@ export const certificates = [
     title: "Laravel Certified Developer",
     issuer: "Laravel",
     date: "2023",
-    image: "/certs/laravel.jpg",
+    image: import.meta.env.BASE_URL + "certs/laravel.jpg",
     credential: "#",
   },
   {
@@ -243,7 +243,7 @@ export const certificates = [
     title: "Flutter Development Bootcamp",
     issuer: "Udemy",
     date: "2023",
-    image: "/certs/flutter.jpg",
+    image: import.meta.env.BASE_URL + "certs/flutter.jpg",
     credential: "#",
   },
   {
@@ -251,7 +251,7 @@ export const certificates = [
     title: "JavaScript Algorithms & Data Structures",
     issuer: "freeCodeCamp",
     date: "2022",
-    image: "/certs/freecodecamp.jpg",
+    image: import.meta.env.BASE_URL + "certs/freecodecamp.jpg",
     credential: "#",
   },
   {
@@ -259,7 +259,7 @@ export const certificates = [
     title: "Database Management Fundamentals",
     issuer: "Oracle",
     date: "2022",
-    image: "/certs/oracle.jpg",
+    image: import.meta.env.BASE_URL + "certs/oracle.jpg",
     credential: "#",
   },
 ];
